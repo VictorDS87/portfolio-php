@@ -1,24 +1,25 @@
+<?php 
+    $social_media = [
+        [
+            'image' => '../../../assets/LinkedinLogo.svg',
+            'name' => 'Linkedin',
+        ],
+        [
+            'image' => '../../../assets/InstagramLogo.svg',
+            'name' => 'Instagram',
+        ],
+        [
+            'image' => '../../../assets/GithubLogo.svg',
+            'name' => 'Github',
+        ],
+        [
+            'image' => '../../../assets/EnvelopeSimple.svg',
+            'name' => 'E-mail',
+        ],            
+    ]
+?>
+
 <div class="mt-28">
-    <?php 
-        $social_media = [
-            [
-                'image' => '../../../assets/LinkedinLogo.svg',
-                'name' => 'Linkedin',
-            ],
-            [
-                'image' => '../../../assets/InstagramLogo.svg',
-                'name' => 'Instagram',
-            ],
-            [
-                'image' => '../../../assets/GithubLogo.svg',
-                'name' => 'Github',
-            ],
-            [
-                'image' => '../../../assets/EnvelopeSimple.svg',
-                'name' => 'E-mail',
-            ],            
-        ]
-    ?>
     <p class="text-center font-mono text-violet-700 text-lg">Contato</p>
     <h3 class="text-center text-2xl font-bold text-white">Gostou do meu trabalho?</h3>
     <p class="text-center text-slate-500">Entre em contato ou acompanhe as minhas redes sociais!</p>
